@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("airline_booking_model.pkl")
+model = joblib.load("airline_booking_model1.pkl")
 
 st.set_page_config(
     page_title="Airline Booking Prediction",
